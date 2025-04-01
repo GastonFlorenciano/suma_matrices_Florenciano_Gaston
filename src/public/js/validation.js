@@ -1,4 +1,4 @@
-export function validateInput(input) {
+function validateInput(input) {
   // Check if input is empty
   if (input.trim() === '') {
     return { valid: false, message: 'Este campo no puede estar vacío.' };
@@ -24,8 +24,8 @@ export function validateMatrixDimensions(rows, cols) {
     return colValidation;
   }
 
-  const numRows = parseInt(rows, 10);
-  const numCols = parseInt(cols, 10);
+  const numRows = parseInt(rows);
+  const numCols = parseInt(cols);
 
   if (numRows <= 0 || numCols <= 0) {
     return {

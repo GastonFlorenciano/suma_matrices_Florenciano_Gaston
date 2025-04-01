@@ -1,4 +1,4 @@
-import { validateInput, validateMatrixDimensions } from './validation.js';
+import { validateMatrixDimensions } from './validation.js';
 import { sumMatrices } from './matrixOperations.js';
 
 document.addEventListener('DOMContentLoaded', () => {
