@@ -100,7 +100,7 @@ La aplicación estará disponible en
 Desde el directorio `python-flask`, ejecuta:
 
 ```sh
-python app.py
+python index.py
 ```
 
 La aplicación estará disponible en
