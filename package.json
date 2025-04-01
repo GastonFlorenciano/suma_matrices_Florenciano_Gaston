@@ -1,0 +1,27 @@
+{
+  "name": "suma_de_matrices_de_1_o_mas_dimensiones-lopez-marcos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sr-roboto/Suma_de_Matrices_de_1_o_mas_dimensiones-lopez-marcos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sr-roboto/Suma_de_Matrices_de_1_o_mas_dimensiones-lopez-marcos/issues"
+  },
+  "homepage": "https://github.com/sr-roboto/Suma_de_Matrices_de_1_o_mas_dimensiones-lopez-marcos#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.9"
+  }
+}

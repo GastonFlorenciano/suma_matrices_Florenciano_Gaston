@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suma de Matrices</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <h1>Suma de Matrices</h1>
+  <form id="matrixForm">
+    <label for="rows">Número de filas:</label>
+    <input type="number" id="rows" required>
+
+    <label for="columns">Número de columnas:</label>
+    <input type="number" id="columns" required>
+
+    <button type="button" id="generateMatrices">Generar Matrices</button>
+  </form>
+
+  <div id="matrixInputs"></div>
+
+  <button type="button" id="calculateSum" style="display: none;">Calcular Suma</button>
+
+  <h2>Resultado:</h2>
+  <div id="result"></div>
+
+  <script type="module" src="./js/script.js"></script>
+</body>
+
+</html>
